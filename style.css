@@ -1,0 +1,17 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+
+}
+
+.parallax { 
+  /* The image used */
+background-image: url("img/parallax.png");
+/* Set a specific height */
+height: 100%; 
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
